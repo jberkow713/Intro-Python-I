@@ -10,8 +10,12 @@ on a string and an integer.
 
 x = 5
 y = "7"
-
+z = int(y)
 # Write a print statement that combines x + y into the integer value 12
+print(x)
+print(z)
+
+print(x+z)
 
 # YOUR CODE HERE
 
@@ -19,3 +23,6 @@ y = "7"
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
+q = str(x)
+s = q+y
+print(s)
